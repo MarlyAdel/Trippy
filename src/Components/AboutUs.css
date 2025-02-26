@@ -1,0 +1,16 @@
+.about-container{
+    text-align: start;
+    margin: 77px 80px;
+}
+.about-container h1{
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.about-container p{
+    padding-bottom: 12px;
+}
+@media screen and (max-width:850px) {
+    .about-container {
+        margin: 77px 25px;
+    }
+}

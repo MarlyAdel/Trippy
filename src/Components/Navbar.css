@@ -1,0 +1,72 @@
+
+nav .container{
+    background-color: white;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.navbar-nav li a{
+    color: black !important;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.navbar-nav li a i{
+    margin-right: 5px;
+}
+.navbar-nav li a:hover{
+    background-color: #01959a;
+    color: white !important;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.nav-link-mobile{
+    display: none;
+}
+@media screen and (max-width:1000px){
+.navbar-nav li a {
+    background-color: aliceblue;
+        color: black !important;
+       padding: 0 -50px;
+        font-weight: 500;
+    }
+     button {
+        padding: 5px -5px !important;
+        position: relative;
+        top: 0;
+            left: 0px;
+            margin-right: 22px !important;
+    }
+    
+} 
+ button {
+    padding: 5px 10px;
+    border-radius: 7px !important;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    position: relative;
+    top: 0;
+    left: 25px;
+    
+}
+button:hover{
+    background: #151516;
+    color: white;
+}
